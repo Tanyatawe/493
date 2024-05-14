@@ -1,0 +1,4 @@
+source;share/combine_pkg/local_setup.bash
+source;share/combine_pkg/local_setup.dsv
+source;share/combine_pkg/local_setup.sh
+source;share/combine_pkg/local_setup.zsh

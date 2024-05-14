@@ -1,0 +1,51 @@
+[0.941s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[1.036s] [35m[1mScanning dependencies of target vesc_driver[0m
+[1.072s] [ 20%] Built target vesc_driver_node
+[1.095s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[18.103s] [ 40%] [32m[1mLinking CXX shared library libvesc_driver.so[0m
+[19.239s] [ 70%] Built target vesc_driver
+[19.293s] [ 80%] [32m[1mLinking CXX executable vesc_device_namer[0m
+[19.843s] [100%] Built target vesc_device_namer
+[19.868s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[19.950s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/vesc_driver
+[19.970s] -- Install configuration: ""
+[19.971s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[19.971s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include
+[19.971s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[19.972s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[19.973s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[19.973s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[19.973s] -- Installing: /home/orin_nano/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so
+[19.985s] -- Set runtime path of "/home/orin_nano/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so" to ""
+[19.986s] -- Installing: /home/orin_nano/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[19.987s] -- Set runtime path of "/home/orin_nano/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""
+[19.987s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch
+[19.987s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[19.987s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/params
+[19.987s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[19.988s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[19.988s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[19.989s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[19.989s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[19.989s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[19.989s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[19.990s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[19.990s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[19.990s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[19.990s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[19.990s] -- Installing: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[19.991s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[19.991s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[19.991s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.991s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.991s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[19.991s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[19.992s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[19.992s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml
+[19.996s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/vesc_driver

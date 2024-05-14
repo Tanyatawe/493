@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.001250] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001593] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.099447] (-) TimerEvent: {}
+[0.200428] (-) TimerEvent: {}
+[0.247878] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.249856] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.251243] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/microros_ws/build/micro_ros_setup', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2444'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2270'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32d0fb06be8571d9a0fa503065e95d10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:55900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2479,unix/ubuntu:/tmp/.ICE-unix/2479'), ('INVOCATION_ID', '58e612d31bd44bb89b0b8cb18bde9f9e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/00fc9694_33f1_4ea5_a6b6_db6378bb8de9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32d0fb06be8571d9a0fa503065e95d10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.300623] (-) TimerEvent: {}
+[0.392247] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.401369] (-) TimerEvent: {}
+[0.436392] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.461120] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/microros_ws/build/micro_ros_setup'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2444'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2270'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32d0fb06be8571d9a0fa503065e95d10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:55900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2479,unix/ubuntu:/tmp/.ICE-unix/2479'), ('INVOCATION_ID', '58e612d31bd44bb89b0b8cb18bde9f9e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/00fc9694_33f1_4ea5_a6b6_db6378bb8de9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32d0fb06be8571d9a0fa503065e95d10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.485289] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.485841] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.486128] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.486392] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.486677] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.486921] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.487150] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.487326] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.487489] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.487642] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.487796] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.487985] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.488141] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.488366] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.488592] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.488789] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.488946] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config\n'}
+[0.489119] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.489281] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.489639] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.489847] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.490050] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.490223] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.490346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.490492] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.490736] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.490970] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.491136] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.491256] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.491401] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.491615] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.491858] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.491987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.492106] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh\n'}
+[0.492301] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.492511] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.492702] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.492824] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.492996] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.493222] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.493415] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.493538] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.493657] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.493847] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.494084] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh\n'}
+[0.494269] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.494391] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.494508] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.494730] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.494996] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.495126] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.495249] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.495397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.495589] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.495712] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.495829] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh\n'}
+[0.496021] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.496251] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.496444] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.496565] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.496683] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.496874] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.496995] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.497111] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.497306] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.497546] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh\n'}
+[0.497727] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.497850] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.497999] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.498166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.498288] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.498437] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.498702] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.498877] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.499002] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.499300] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh\n'}
+[0.499436] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.499590] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.499822] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.500008] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.500133] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.500251] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.500397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.500544] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.500949] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.501287] (-) TimerEvent: {}
+[0.501673] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.501835] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.502122] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.502355] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.502523] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.502674] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.502798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.502917] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.503110] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.503343] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.503500] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.503631] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.503752] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.503871] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.503987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/reset.sh\n'}
+[0.504120] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.504239] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.504356] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.504473] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.504589] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.504704] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.504818] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.504931] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.505045] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.505158] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.505274] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.505387] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.505497] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.505606] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.505753] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.506234] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.506683] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.507185] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.508021] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.508600] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.508789] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.508963] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.509136] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.509305] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.509472] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.509681] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.509909] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.510122] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.510356] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.510608] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.510869] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host\n'}
+[0.511047] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.511239] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.511397] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.511556] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.511729] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.511920] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.512096] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.512265] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/reset.sh\n'}
+[0.512420] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.512603] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.512743] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.512870] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.512988] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.513104] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.513233] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.513373] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.513564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.513749] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.513987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.514212] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.514434] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.514671] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.514873] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.515146] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx\n'}
+[0.515347] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos\n'}
+[0.515544] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt\n'}
+[0.515743] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic\n'}
+[0.515921] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/configure.sh\n'}
+[0.516097] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/build.sh\n'}
+[0.519163] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta\n'}
+[0.519365] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/package.xml\n'}
+[0.519578] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/reset.sh\n'}
+[0.519772] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/flash.sh\n'}
+[0.520261] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos\n'}
+[0.521950] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos\n'}
+[0.522521] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/create.sh\n'}
+[0.524061] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/nuttx/generic/supported_platforms\n'}
+[0.524857] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.525336] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.525822] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.526226] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.526833] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.527613] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.528193] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.529278] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh\n'}
+[0.529998] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.530491] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.530666] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.531216] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.531686] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.617559] (-) TimerEvent: {}
+[0.718970] (-) TimerEvent: {}
+[0.819492] (-) TimerEvent: {}
+[0.920142] (-) TimerEvent: {}
+[1.020812] (-) TimerEvent: {}
+[1.121740] (-) TimerEvent: {}
+[1.147366] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[1.149643] (-) EventReactorShutdown: {}

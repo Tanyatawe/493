@@ -1,0 +1,4 @@
+Invoking command in '/home/orin_nano/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/drive_base_msgs -- -j6 -l6
+Invoked command in '/home/orin_nano/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/drive_base_msgs -- -j6 -l6
+Invoking command in '/home/orin_nano/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/drive_base_msgs
+Invoked command in '/home/orin_nano/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/drive_base_msgs

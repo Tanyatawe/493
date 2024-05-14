@@ -1,0 +1,8 @@
+[01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In member function ‘[01m[Kvoid vesc_ackermann::VescToOdom::servoAngleCallback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/src/vesc_to_odom.cpp:70:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg2[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg[m[K’?
+   70 |   double read_angle_ = [01;31m[Kmsg2[m[K->data;
+      |                        [01;31m[K^~~~[m[K
+      |                        [32m[Kmsg[m[K
+make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

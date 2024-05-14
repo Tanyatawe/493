@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/f1_test/f1_test.egg-info/PKG-INFO
+../../build/f1_test/f1_test.egg-info/SOURCES.txt
+../../build/f1_test/f1_test.egg-info/dependency_links.txt
+../../build/f1_test/f1_test.egg-info/entry_points.txt
+../../build/f1_test/f1_test.egg-info/requires.txt
+../../build/f1_test/f1_test.egg-info/top_level.txt
+../../build/f1_test/f1_test.egg-info/zip-safe
+f1_test/__init__.py
+f1_test/my_subscriber_node.py
+resource/f1_test
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

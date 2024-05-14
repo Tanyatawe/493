@@ -1,0 +1,20 @@
+[1.053s] Invoking command in '/home/orin_nano/f1tenth_ws/build/combine_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/combine_pkg -- -j6 -l6
+[1.958s] Invoked command in '/home/orin_nano/f1tenth_ws/build/combine_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/combine_pkg -- -j6 -l6
+[2.049s] Invoking command in '/home/orin_nano/f1tenth_ws/build/combine_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/combine_pkg
+[2.086s] -- Install configuration: ""
+[2.086s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/ament_index/resource_index/package_run_dependencies/combine_pkg
+[2.086s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/ament_index/resource_index/parent_prefix_path/combine_pkg
+[2.086s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/ament_prefix_path.sh
+[2.087s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/ament_prefix_path.dsv
+[2.087s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/path.sh
+[2.087s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/path.dsv
+[2.088s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.bash
+[2.089s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.sh
+[2.089s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.zsh
+[2.089s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.dsv
+[2.089s] -- Installing: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/package.dsv
+[2.090s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/ament_index/resource_index/packages/combine_pkg
+[2.091s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/cmake/combine_pkgConfig.cmake
+[2.091s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/cmake/combine_pkgConfig-version.cmake
+[2.092s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/package.xml
+[2.099s] Invoked command in '/home/orin_nano/f1tenth_ws/build/combine_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/combine_pkg

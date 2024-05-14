@@ -1,0 +1,1 @@
+['--no-warn-unused-cli', '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF', '-DTHIRDPARTY=ON', '-DBUILD_SHARED_LIBS=OFF', '-DBUILD_TESTING=OFF', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_TOOLCHAIN_FILE=/home/orin_nano/Arduino/libraries/micro_ros_arduino/extras/library_generation/teensy32_toolchain.cmake', '-DCMAKE_VERBOSE_MAKEFILE=ON']

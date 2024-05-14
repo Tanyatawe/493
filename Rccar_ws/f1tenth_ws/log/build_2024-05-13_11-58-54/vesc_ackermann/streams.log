@@ -1,0 +1,39 @@
+[1.229s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[1.369s] [ 57%] Built target ackermann_to_vesc_node
+[1.369s] [ 57%] Built target vesc_to_odom_node
+[1.378s] [100%] Built target vesc_ackermann
+[1.402s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[1.474s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/vesc_ackermann
+[1.494s] -- Install configuration: ""
+[1.495s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[1.496s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[1.496s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include
+[1.496s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann
+[1.497s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[1.497s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[1.497s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[1.497s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[1.498s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[1.498s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch
+[1.498s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[1.498s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[1.498s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[1.499s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[1.499s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[1.499s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[1.499s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[1.499s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[1.499s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[1.500s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[1.500s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[1.500s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[1.500s] -- Installing: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[1.500s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[1.501s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[1.501s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.501s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.501s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[1.501s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[1.501s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[1.502s] -- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[1.506s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/vesc_ackermann

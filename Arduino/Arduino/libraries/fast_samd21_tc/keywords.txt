@@ -1,0 +1,27 @@
+# Syntax Coloring Map For fast_samd21_tc
+
+# Datatypes (KEYWORD1)
+
+# Methods and Functions (KEYWORD2)
+
+fast_samd21_tc3_reset	KEYWORD2
+fast_samd21_tc3_start	KEYWORD2
+fast_samd21_tc3_disable	KEYWORD2
+fast_samd21_tc3_stop	KEYWORD2
+fast_samd21_tc3_configure	KEYWORD2
+
+fast_samd21_tc4_reset	KEYWORD2
+fast_samd21_tc4_start	KEYWORD2
+fast_samd21_tc4_disable	KEYWORD2
+fast_samd21_tc4_stop	KEYWORD2
+fast_samd21_tc4_configure	KEYWORD2
+
+fast_samd21_tc5_reset		KEYWORD2
+fast_samd21_tc5_start		KEYWORD2
+fast_samd21_tc5_disable		KEYWORD2
+fast_samd21_tc5_stop		KEYWORD2
+fast_samd21_tc5_configure	KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)

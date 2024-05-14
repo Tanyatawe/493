@@ -1,0 +1,15 @@
+/home/orin_nano/f1tenth_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/orin_nano/f1tenth_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/path.sh
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/path.dsv
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.bash
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.sh
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.zsh
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.dsv
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/package.dsv
+/home/orin_nano/f1tenth_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/orin_nano/f1tenth_ws/install/vesc/share/vesc/package.xml

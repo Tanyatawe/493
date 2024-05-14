@@ -1,0 +1,68 @@
+[0.345s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/f1tenth_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/f1tenth_ws/install/vesc_driver
+[0.463s] -- The C compiler identification is GNU 9.4.0
+[0.572s] -- The CXX compiler identification is GNU 9.4.0
+[0.582s] -- Check for working C compiler: /usr/bin/cc
+[0.758s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.758s] -- Detecting C compiler ABI info
+[0.906s] -- Detecting C compiler ABI info - done
+[0.925s] -- Detecting C compile features
+[0.925s] -- Detecting C compile features - done
+[0.931s] -- Check for working CXX compiler: /usr/bin/c++
+[1.100s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.102s] -- Detecting CXX compiler ABI info
+[1.266s] -- Detecting CXX compiler ABI info - done
+[1.286s] -- Detecting CXX compile features
+[1.287s] -- Detecting CXX compile features - done
+[1.291s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.348s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.348s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.006s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.184s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.244s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.510s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.513s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.515s] -- Looking for pthread.h
+[2.663s] -- Looking for pthread.h - found
+[2.664s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.815s] -- Looking for pthread_create in pthreads
+[2.941s] -- Looking for pthread_create in pthreads - not found
+[2.941s] -- Looking for pthread_create in pthread
+[3.086s] -- Looking for pthread_create in pthread - found
+[3.088s] -- Found Threads: TRUE  
+[4.585s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.625s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.629s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.630s] -- Configured cppcheck include dirs: /home/orin_nano/f1tenth_ws/src/vesc/vesc_driver/include
+[4.630s] -- Configured cppcheck exclude dirs and/or files: 
+[4.633s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.633s] -- Configured cpplint exclude dirs and/or files: 
+[4.635s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.636s] -- Added test 'lint_cmake' to check CMake code style
+[4.638s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.641s] -- Added test 'uncrustify' to check C / C++ code style
+[4.642s] -- Configured uncrustify additional arguments: 
+[4.643s] -- Added test 'xmllint' to check XML markup files
+[4.655s] -- Configuring done
+[4.751s] -- Generating done
+[4.756s] -- Build files have been written to: /home/orin_nano/f1tenth_ws/build/vesc_driver
+[4.791s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/f1tenth_ws/src/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/f1tenth_ws/install/vesc_driver
+[4.793s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[4.929s] [35m[1mScanning dependencies of target vesc_driver[0m
+[4.942s] [35m[1mScanning dependencies of target vesc_driver_node[0m
+[5.087s] [ 10%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[5.147s] [ 20%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[5.149s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o[0m
+[5.157s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[5.160s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[13.801s] [ 60%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[14.084s] [ 60%] Built target vesc_driver_node
+[25.961s] [ 70%] [32m[1mLinking CXX shared library libvesc_driver.so[0m
+[27.064s] [ 70%] Built target vesc_driver
+[27.086s] [35m[1mScanning dependencies of target vesc_device_namer[0m
+[27.114s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o[0m
+[27.115s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o[0m
+[28.337s] [100%] [32m[1mLinking CXX executable vesc_device_namer[0m
+[28.877s] [100%] Built target vesc_device_namer

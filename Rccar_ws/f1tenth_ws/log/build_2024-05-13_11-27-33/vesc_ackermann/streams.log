@@ -1,0 +1,77 @@
+[0.646s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/f1tenth_ws/install/vesc_ackermann
+[0.770s] -- The C compiler identification is GNU 9.4.0
+[0.878s] -- The CXX compiler identification is GNU 9.4.0
+[0.887s] -- Check for working C compiler: /usr/bin/cc
+[1.056s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.057s] -- Detecting C compiler ABI info
+[1.207s] -- Detecting C compiler ABI info - done
+[1.226s] -- Detecting C compile features
+[1.227s] -- Detecting C compile features - done
+[1.231s] -- Check for working CXX compiler: /usr/bin/c++
+[1.398s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.401s] -- Detecting CXX compiler ABI info
+[1.585s] -- Detecting CXX compiler ABI info - done
+[1.604s] -- Detecting CXX compile features
+[1.605s] -- Detecting CXX compile features - done
+[1.610s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.667s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.667s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.296s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.473s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.533s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.156s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.161s] -- Looking for pthread.h
+[3.313s] -- Looking for pthread.h - found
+[3.313s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.464s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.464s] -- Looking for pthread_create in pthreads
+[3.588s] -- Looking for pthread_create in pthreads - not found
+[3.588s] -- Looking for pthread_create in pthread
+[3.731s] -- Looking for pthread_create in pthread - found
+[3.733s] -- Found Threads: TRUE  
+[4.824s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.864s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.866s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.867s] -- Configured cppcheck include dirs: /home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/include
+[4.867s] -- Configured cppcheck exclude dirs and/or files: 
+[4.869s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.869s] -- Configured cpplint exclude dirs and/or files: 
+[4.871s] -- Added test 'lint_cmake' to check CMake code style
+[4.873s] -- Added test 'uncrustify' to check C / C++ code style
+[4.874s] -- Configured uncrustify additional arguments: 
+[4.875s] -- Added test 'xmllint' to check XML markup files
+[4.888s] -- Configuring done
+[4.930s] -- Generating done
+[4.934s] -- Build files have been written to: /home/orin_nano/f1tenth_ws/build/vesc_ackermann
+[4.962s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/f1tenth_ws/install/vesc_ackermann
+[4.968s] Invoking command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[5.062s] [35m[1mScanning dependencies of target ackermann_to_vesc_node[0m
+[5.062s] [35m[1mScanning dependencies of target vesc_to_odom_node[0m
+[5.066s] [35m[1mScanning dependencies of target vesc_ackermann[0m
+[5.140s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[5.147s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[5.170s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[5.173s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[10.438s] [01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/src/vesc_to_odom.cpp:74:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[10.439s]    74 | void VescToOdom::IMUCallback(const sensor_msgs::[01;31m[KSharedPtr[m[K msg)
+[10.439s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[10.439s] [01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/src/vesc_to_odom.cpp:74:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid vesc_ackermann::VescToOdom::IMUCallback(int)[m[K’
+[10.440s]    74 | void [01;31m[KVescToOdom[m[K::IMUCallback(const sensor_msgs::SharedPtr msg)
+[10.440s]       |      [01;31m[K^~~~~~~~~~[m[K
+[10.441s] [01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/src/vesc_to_odom.cpp:74:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid vesc_ackermann::VescToOdom::IMUCallback(int)[m[K’
+[10.441s] In file included from [01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/src/vesc_to_odom.cpp:1[m[K:
+[10.441s] [01m[K/home/orin_nano/f1tenth_ws/src/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass vesc_ackermann::VescToOdom[m[K’ defined here
+[10.442s]    23 | class [01;36m[KVescToOdom[m[K : public rclcpp::Node
+[10.442s]       |       [01;36m[K^~~~~~~~~~[m[K
+[12.431s] [ 71%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[12.919s] [ 71%] Built target ackermann_to_vesc_node
+[13.277s] [ 85%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[13.569s] [ 85%] Built target vesc_to_odom_node
+[15.657s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+[15.658s] make[2]: *** Waiting for unfinished jobs....
+[20.701s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[20.701s] make: *** [Makefile:141: all] Error 2
+[20.706s] Invoked command in '/home/orin_nano/f1tenth_ws/build/vesc_ackermann' returned '2': CMAKE_PREFIX_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/vesc_ackermann -- -j6 -l6

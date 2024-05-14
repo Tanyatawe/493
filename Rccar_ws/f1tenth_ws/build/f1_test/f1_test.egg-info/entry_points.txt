@@ -1,0 +1,3 @@
+[console_scripts]
+f1_test_lidar = f1_test.my_subscriber_node:main
+

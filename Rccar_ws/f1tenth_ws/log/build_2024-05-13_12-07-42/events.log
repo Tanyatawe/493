@@ -1,0 +1,674 @@
+[0.000000] (-) TimerEvent: {}
+[0.000593] (combine_pkg) JobQueued: {'identifier': 'combine_pkg', 'dependencies': OrderedDict()}
+[0.000918] (f1_test) JobQueued: {'identifier': 'f1_test', 'dependencies': OrderedDict()}
+[0.001107] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.001617] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.001909] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/home/orin_nano/f1tenth_ws/install/vesc_msgs')])}
+[0.002075] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/home/orin_nano/f1tenth_ws/install/vesc_msgs')])}
+[0.002134] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/home/orin_nano/f1tenth_ws/install/vesc_msgs'), ('vesc_ackermann', '/home/orin_nano/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/home/orin_nano/f1tenth_ws/install/vesc_driver')])}
+[0.002183] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.099468] (-) TimerEvent: {}
+[0.200794] (-) TimerEvent: {}
+[0.301674] (-) TimerEvent: {}
+[0.313625] (combine_pkg) JobStarted: {'identifier': 'combine_pkg'}
+[0.401997] (-) TimerEvent: {}
+[0.503053] (-) TimerEvent: {}
+[0.604356] (-) TimerEvent: {}
+[0.620316] (f1_test) JobStarted: {'identifier': 'f1_test'}
+[0.704525] (-) TimerEvent: {}
+[0.806081] (-) TimerEvent: {}
+[0.907903] (-) TimerEvent: {}
+[1.002695] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[1.008010] (-) TimerEvent: {}
+[1.109029] (-) TimerEvent: {}
+[1.210599] (-) TimerEvent: {}
+[1.311808] (-) TimerEvent: {}
+[1.314802] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[1.316740] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[1.318080] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/f1tenth_ws/build/vesc_msgs', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[1.331128] (combine_pkg) JobProgress: {'identifier': 'combine_pkg', 'progress': 'cmake'}
+[1.332853] (combine_pkg) JobProgress: {'identifier': 'combine_pkg', 'progress': 'build'}
+[1.333305] (combine_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/f1tenth_ws/build/combine_pkg', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/f1tenth_ws/build/combine_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/combine_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[1.412064] (-) TimerEvent: {}
+[1.512976] (-) TimerEvent: {}
+[1.614066] (-) TimerEvent: {}
+[1.714755] (-) TimerEvent: {}
+[1.815717] (-) TimerEvent: {}
+[1.916854] (-) TimerEvent: {}
+[2.018215] (-) TimerEvent: {}
+[2.119567] (-) TimerEvent: {}
+[2.164561] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[2.166901] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[2.167583] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/f1tenth_ws/build/urg_node2', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/f1tenth_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[2.177457] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target vesc_msgs__cpp\n'}
+[2.178854] (vesc_msgs) StdoutLine: {'line': b'[ 12%] Built target vesc_msgs__rosidl_generator_c\n'}
+[2.179396] (vesc_msgs) StdoutLine: {'line': b'[ 23%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.180304] (vesc_msgs) StdoutLine: {'line': b'[ 34%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[2.181240] (vesc_msgs) StdoutLine: {'line': b'[ 45%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[2.181912] (vesc_msgs) StdoutLine: {'line': b'[ 56%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.185047] (vesc_msgs) StdoutLine: {'line': b'[ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[2.185323] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.185501] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs\n'}
+[2.185654] (vesc_msgs) StdoutLine: {'line': b'[ 80%] Built target vesc_msgs__py\n'}
+[2.185794] (vesc_msgs) StdoutLine: {'line': b'[ 89%] Built target vesc_msgs__python\n'}
+[2.185935] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.186549] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.187411] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_c__pyext\n'}
+[2.188089] (vesc_msgs) CommandEnded: {'returncode': 0}
+[2.192063] (combine_pkg) CommandEnded: {'returncode': 0}
+[2.219753] (-) TimerEvent: {}
+[2.232266] (combine_pkg) JobProgress: {'identifier': 'combine_pkg', 'progress': 'install'}
+[2.259847] (combine_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/f1tenth_ws/build/combine_pkg'], 'cwd': '/home/orin_nano/f1tenth_ws/build/combine_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/combine_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[2.287739] (combine_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.289724] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/ament_index/resource_index/package_run_dependencies/combine_pkg\n'}
+[2.289992] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/ament_index/resource_index/parent_prefix_path/combine_pkg\n'}
+[2.290174] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/ament_prefix_path.sh\n'}
+[2.290838] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/ament_prefix_path.dsv\n'}
+[2.291052] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/path.sh\n'}
+[2.291210] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/environment/path.dsv\n'}
+[2.291355] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.bash\n'}
+[2.291492] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.sh\n'}
+[2.291625] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.zsh\n'}
+[2.291753] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/local_setup.dsv\n'}
+[2.291875] (combine_pkg) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/package.dsv\n'}
+[2.291999] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/ament_index/resource_index/packages/combine_pkg\n'}
+[2.292121] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/cmake/combine_pkgConfig.cmake\n'}
+[2.292242] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/cmake/combine_pkgConfig-version.cmake\n'}
+[2.292361] (combine_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/combine_pkg/share/combine_pkg/package.xml\n'}
+[2.295800] (combine_pkg) CommandEnded: {'returncode': 0}
+[2.310264] (urg_node2) StdoutLine: {'line': b'[ 10%] Built target gtest\n'}
+[2.311057] (urg_node2) StdoutLine: {'line': b'[ 20%] Built target gtest_main\n'}
+[2.311344] (urg_node2) StdoutLine: {'line': b'[ 65%] Built target urg_c\n'}
+[2.319820] (-) TimerEvent: {}
+[2.357148] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target urg_node2_node\n'}
+[2.390021] (urg_node2) StdoutLine: {'line': b'[ 85%] Built target urg_node2\n'}
+[2.401599] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[2.420031] (-) TimerEvent: {}
+[2.521301] (-) TimerEvent: {}
+[2.575591] (urg_node2) CommandEnded: {'returncode': 0}
+[2.584227] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'install'}
+[2.585079] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/f1tenth_ws/build/vesc_msgs'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[2.610319] (vesc_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.610993] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs\n'}
+[2.611453] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[2.612000] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[2.613069] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h\n'}
+[2.614166] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h\n'}
+[2.614466] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[2.614625] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h\n'}
+[2.614766] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h\n'}
+[2.614900] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h\n'}
+[2.615186] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h\n'}
+[2.615455] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h\n'}
+[2.615623] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h\n'}
+[2.616033] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c\n'}
+[2.616258] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h\n'}
+[2.616555] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h\n'}
+[2.616744] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.c\n'}
+[2.616950] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h\n'}
+[2.617213] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.c\n'}
+[2.617610] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.c\n'}
+[2.617882] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h\n'}
+[2.618179] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h\n'}
+[2.618486] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h\n'}
+[2.618756] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.619123] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h\n'}
+[2.619273] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h\n'}
+[2.619410] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh\n'}
+[2.619542] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv\n'}
+[2.619670] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so\n'}
+[2.619903] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[2.620099] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[2.620276] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.620516] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[2.620719] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.620885] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.621165] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h\n'}
+[2.621534] (-) TimerEvent: {}
+[2.622660] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.623129] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.623326] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[2.623536] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[2.623707] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[2.623872] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.624090] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/dds_fastrtps\n'}
+[2.624290] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.624460] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.624621] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.624878] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.625040] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.625235] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[2.625440] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[2.625589] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[2.628546] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.c\n'}
+[2.629905] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.630145] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h\n'}
+[2.630468] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c\n'}
+[2.630704] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.c\n'}
+[2.630924] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c\n'}
+[2.631166] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h\n'}
+[2.631356] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.631698] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.632527] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.633363] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so\n'}
+[2.634833] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[2.636518] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[2.637142] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp\n'}
+[2.638005] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.638812] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp\n'}
+[2.639364] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[2.640042] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp\n'}
+[2.640552] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp\n'}
+[2.641160] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp\n'}
+[2.641710] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp\n'}
+[2.642286] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp\n'}
+[2.642854] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp\n'}
+[2.643556] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp\n'}
+[2.644104] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp\n'}
+[2.644621] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp\n'}
+[2.645141] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp\n'}
+[2.645568] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp\n'}
+[2.646097] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp\n'}
+[2.647179] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp\n'}
+[2.647494] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp\n'}
+[2.648225] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp\n'}
+[2.650183] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp\n'}
+[2.652029] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp\n'}
+[2.652343] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp\n'}
+[2.652948] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[2.653957] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[2.654595] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[2.655192] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.cpp\n'}
+[2.655775] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.656276] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.656849] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp\n'}
+[2.657001] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657131] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657258] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.cpp\n'}
+[2.657405] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp\n'}
+[2.657528] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.657649] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so\n'}
+[2.657770] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh\n'}
+[2.657891] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv\n'}
+[2.658013] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py\n'}
+[2.697069] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg\n'}
+[2.698021] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py\n'}
+[2.698562] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c\n'}
+[2.699586] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_s.c\n'}
+[2.699986] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py\n'}
+[2.701061] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py\n'}
+[2.701590] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c\n'}
+[2.702662] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py\n'}
+[2.703471] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_s.c\n'}
+[2.704074] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py\n'}
+[2.704342] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.705343] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.706252] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.706758] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__python.so\n'}
+[2.707362] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl\n'}
+[2.708301] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl\n'}
+[2.709593] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl\n'}
+[2.710103] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl\n'}
+[2.711255] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg\n'}
+[2.711943] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg\n'}
+[2.712663] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg\n'}
+[2.713298] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg\n'}
+[2.714216] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs\n'}
+[2.715202] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs\n'}
+[2.715443] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh\n'}
+[2.716529] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv\n'}
+[2.717184] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh\n'}
+[2.717614] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv\n'}
+[2.718184] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash\n'}
+[2.719309] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh\n'}
+[2.720158] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh\n'}
+[2.721891] (-) TimerEvent: {}
+[2.722689] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv\n'}
+[2.723492] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.dsv\n'}
+[2.724045] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs\n'}
+[2.725088] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake\n'}
+[2.725621] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.726377] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.726849] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.727990] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.728525] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.729338] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.729815] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.729996] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.730569] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.732678] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.733025] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.733162] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.733289] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.733412] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.733533] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.733718] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.733888] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.734113] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake\n'}
+[2.734291] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake\n'}
+[2.734493] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.xml\n'}
+[2.822247] (-) TimerEvent: {}
+[2.923364] (-) TimerEvent: {}
+[2.966426] (combine_pkg) JobEnded: {'identifier': 'combine_pkg', 'rc': 0}
+[2.969156] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[2.969589] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/f1tenth_ws/build/urg_node2'], 'cwd': '/home/orin_nano/f1tenth_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[2.978382] (vesc_msgs) CommandEnded: {'returncode': 0}
+[2.995499] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.997183] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[2.998490] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/lib/liburg_node2.so\n'}
+[2.999294] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/lib/liburg_c.so\n'}
+[2.999993] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/launch\n'}
+[3.000302] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[3.001311] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[3.003240] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[3.004010] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/config\n'}
+[3.004661] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[3.005249] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[3.006056] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[3.006672] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[3.007316] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[3.008287] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[3.008881] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[3.009422] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[3.009949] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[3.010505] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[3.011013] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[3.011473] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[3.012160] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[3.013009] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/package.dsv\n'}
+[3.013462] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[3.014092] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[3.014694] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[3.015509] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[3.016039] (urg_node2) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/urg_node2/share/urg_node2/package.xml\n'}
+[3.023648] (-) TimerEvent: {}
+[3.124361] (-) TimerEvent: {}
+[3.225328] (-) TimerEvent: {}
+[3.326191] (-) TimerEvent: {}
+[3.391137] (f1_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/f1_test', 'build', '--build-base', '/home/orin_nano/f1tenth_ws/build/f1_test/build', 'install', '--record', '/home/orin_nano/f1tenth_ws/build/f1_test/install.log', '--install-scripts', '$base/lib/f1_test', '--single-version-externally-managed'], 'cwd': '/home/orin_nano/f1tenth_ws/src/f1_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin_nano', 'SSH_AGENT_PID': '2572', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/orin_nano', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2401', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/orin_nano/f1tenth_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orin_nano', 'JOURNAL_STREAM': '7:59574', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin_nano', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607', 'INVOCATION_ID': '70d2c574fd8745c1bd7e34b9eba3cd90', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/orin_nano/f1tenth_ws/build/f1_test', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin_nano/f1tenth_ws/build/f1_test/prefix_override:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg'}, 'shell': False}
+[3.399589] (urg_node2) CommandEnded: {'returncode': 0}
+[3.426886] (-) TimerEvent: {}
+[3.527872] (-) TimerEvent: {}
+[3.628747] (-) TimerEvent: {}
+[3.730277] (-) TimerEvent: {}
+[3.817769] (f1_test) StdoutLine: {'line': b'running egg_info\n'}
+[3.819199] (f1_test) StdoutLine: {'line': b'writing ../../build/f1_test/f1_test.egg-info/PKG-INFO\n'}
+[3.820229] (f1_test) StdoutLine: {'line': b'writing dependency_links to ../../build/f1_test/f1_test.egg-info/dependency_links.txt\n'}
+[3.820863] (f1_test) StdoutLine: {'line': b'writing entry points to ../../build/f1_test/f1_test.egg-info/entry_points.txt\n'}
+[3.821106] (f1_test) StdoutLine: {'line': b'writing requirements to ../../build/f1_test/f1_test.egg-info/requires.txt\n'}
+[3.821925] (f1_test) StdoutLine: {'line': b'writing top-level names to ../../build/f1_test/f1_test.egg-info/top_level.txt\n'}
+[3.830321] (-) TimerEvent: {}
+[3.885279] (f1_test) StdoutLine: {'line': b"reading manifest file '../../build/f1_test/f1_test.egg-info/SOURCES.txt'\n"}
+[3.889187] (f1_test) StdoutLine: {'line': b"writing manifest file '../../build/f1_test/f1_test.egg-info/SOURCES.txt'\n"}
+[3.889490] (f1_test) StdoutLine: {'line': b'running build\n'}
+[3.889889] (f1_test) StdoutLine: {'line': b'running build_py\n'}
+[3.890409] (f1_test) StdoutLine: {'line': b'running install\n'}
+[3.890638] (f1_test) StdoutLine: {'line': b'running install_lib\n'}
+[3.892551] (f1_test) StdoutLine: {'line': b'running install_data\n'}
+[3.893701] (f1_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.896979] (f1_test) StdoutLine: {'line': b"removing '/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages/f1_test-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.897677] (f1_test) StdoutLine: {'line': b'Copying ../../build/f1_test/f1_test.egg-info to /home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages/f1_test-0.0.0-py3.8.egg-info\n'}
+[3.899499] (f1_test) StdoutLine: {'line': b'running install_scripts\n'}
+[3.930590] (-) TimerEvent: {}
+[3.933021] (f1_test) StdoutLine: {'line': b'Installing f1_test_lidar script to /home/orin_nano/f1tenth_ws/install/f1_test/lib/f1_test\n'}
+[3.934092] (f1_test) StdoutLine: {'line': b"writing list of installed files to '/home/orin_nano/f1tenth_ws/build/f1_test/install.log'\n"}
+[4.030763] (-) TimerEvent: {}
+[4.132455] (-) TimerEvent: {}
+[4.230926] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 0}
+[4.234267] (-) TimerEvent: {}
+[4.234662] (vesc_ackermann) JobStarted: {'identifier': 'vesc_ackermann'}
+[4.334588] (-) TimerEvent: {}
+[4.435699] (-) TimerEvent: {}
+[4.537187] (-) TimerEvent: {}
+[4.539006] (vesc_driver) JobStarted: {'identifier': 'vesc_driver'}
+[4.637297] (-) TimerEvent: {}
+[4.738926] (-) TimerEvent: {}
+[4.842176] (-) TimerEvent: {}
+[4.847801] (f1_test) CommandEnded: {'returncode': 0}
+[4.942278] (-) TimerEvent: {}
+[5.044389] (-) TimerEvent: {}
+[5.082802] (f1_test) JobEnded: {'identifier': 'f1_test', 'rc': 0}
+[5.144636] (-) TimerEvent: {}
+[5.245927] (-) TimerEvent: {}
+[5.347768] (-) TimerEvent: {}
+[5.448822] (-) TimerEvent: {}
+[5.466002] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[5.469383] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'cmake'}
+[5.470800] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'build'}
+[5.471417] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/f1tenth_ws/build/vesc_ackermann', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc_ackermann', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc_ackermann'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[5.481748] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'cmake'}
+[5.483799] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'build'}
+[5.484386] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/f1tenth_ws/build/vesc_driver', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[5.549069] (-) TimerEvent: {}
+[5.579761] (vesc_ackermann) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_ackermann\x1b[0m\n'}
+[5.595956] (vesc_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_driver\x1b[0m\n'}
+[5.614883] (vesc_ackermann) StdoutLine: {'line': b'[ 57%] Built target ackermann_to_vesc_node\n'}
+[5.615417] (vesc_ackermann) StdoutLine: {'line': b'[ 57%] Built target vesc_to_odom_node\n'}
+[5.633031] (vesc_driver) StdoutLine: {'line': b'[ 20%] Built target vesc_driver_node\n'}
+[5.648640] (vesc_ackermann) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o\x1b[0m\n'}
+[5.649142] (-) TimerEvent: {}
+[5.656147] (vesc_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o\x1b[0m\n'}
+[5.749356] (-) TimerEvent: {}
+[5.850041] (-) TimerEvent: {}
+[5.950759] (-) TimerEvent: {}
+[6.051443] (-) TimerEvent: {}
+[6.152134] (-) TimerEvent: {}
+[6.252844] (-) TimerEvent: {}
+[6.353555] (-) TimerEvent: {}
+[6.454268] (-) TimerEvent: {}
+[6.555009] (-) TimerEvent: {}
+[6.655721] (-) TimerEvent: {}
+[6.756427] (-) TimerEvent: {}
+[6.857125] (-) TimerEvent: {}
+[6.957817] (-) TimerEvent: {}
+[7.058493] (-) TimerEvent: {}
+[7.159203] (-) TimerEvent: {}
+[7.259919] (-) TimerEvent: {}
+[7.360621] (-) TimerEvent: {}
+[7.461325] (-) TimerEvent: {}
+[7.562044] (-) TimerEvent: {}
+[7.662787] (-) TimerEvent: {}
+[7.763495] (-) TimerEvent: {}
+[7.864240] (-) TimerEvent: {}
+[7.964940] (-) TimerEvent: {}
+[8.065647] (-) TimerEvent: {}
+[8.166388] (-) TimerEvent: {}
+[8.267087] (-) TimerEvent: {}
+[8.367819] (-) TimerEvent: {}
+[8.468521] (-) TimerEvent: {}
+[8.569238] (-) TimerEvent: {}
+[8.669959] (-) TimerEvent: {}
+[8.770708] (-) TimerEvent: {}
+[8.871424] (-) TimerEvent: {}
+[8.972139] (-) TimerEvent: {}
+[9.072843] (-) TimerEvent: {}
+[9.173537] (-) TimerEvent: {}
+[9.274251] (-) TimerEvent: {}
+[9.375006] (-) TimerEvent: {}
+[9.475723] (-) TimerEvent: {}
+[9.576429] (-) TimerEvent: {}
+[9.677145] (-) TimerEvent: {}
+[9.777867] (-) TimerEvent: {}
+[9.878609] (-) TimerEvent: {}
+[9.979313] (-) TimerEvent: {}
+[10.080008] (-) TimerEvent: {}
+[10.180750] (-) TimerEvent: {}
+[10.281499] (-) TimerEvent: {}
+[10.382226] (-) TimerEvent: {}
+[10.482985] (-) TimerEvent: {}
+[10.583717] (-) TimerEvent: {}
+[10.684456] (-) TimerEvent: {}
+[10.785172] (-) TimerEvent: {}
+[10.885905] (-) TimerEvent: {}
+[10.986631] (-) TimerEvent: {}
+[11.087359] (-) TimerEvent: {}
+[11.188082] (-) TimerEvent: {}
+[11.288792] (-) TimerEvent: {}
+[11.389492] (-) TimerEvent: {}
+[11.490214] (-) TimerEvent: {}
+[11.590958] (-) TimerEvent: {}
+[11.691704] (-) TimerEvent: {}
+[11.792458] (-) TimerEvent: {}
+[11.893219] (-) TimerEvent: {}
+[11.993964] (-) TimerEvent: {}
+[12.094748] (-) TimerEvent: {}
+[12.195481] (-) TimerEvent: {}
+[12.296234] (-) TimerEvent: {}
+[12.396980] (-) TimerEvent: {}
+[12.497728] (-) TimerEvent: {}
+[12.598504] (-) TimerEvent: {}
+[12.699245] (-) TimerEvent: {}
+[12.799969] (-) TimerEvent: {}
+[12.900692] (-) TimerEvent: {}
+[13.001415] (-) TimerEvent: {}
+[13.102138] (-) TimerEvent: {}
+[13.202894] (-) TimerEvent: {}
+[13.303606] (-) TimerEvent: {}
+[13.404286] (-) TimerEvent: {}
+[13.504971] (-) TimerEvent: {}
+[13.605682] (-) TimerEvent: {}
+[13.706423] (-) TimerEvent: {}
+[13.807119] (-) TimerEvent: {}
+[13.907837] (-) TimerEvent: {}
+[14.008553] (-) TimerEvent: {}
+[14.109274] (-) TimerEvent: {}
+[14.209997] (-) TimerEvent: {}
+[14.310709] (-) TimerEvent: {}
+[14.411395] (-) TimerEvent: {}
+[14.512082] (-) TimerEvent: {}
+[14.612760] (-) TimerEvent: {}
+[14.713426] (-) TimerEvent: {}
+[14.814115] (-) TimerEvent: {}
+[14.914826] (-) TimerEvent: {}
+[15.015625] (-) TimerEvent: {}
+[15.116330] (-) TimerEvent: {}
+[15.217043] (-) TimerEvent: {}
+[15.317746] (-) TimerEvent: {}
+[15.418444] (-) TimerEvent: {}
+[15.519093] (-) TimerEvent: {}
+[15.619793] (-) TimerEvent: {}
+[15.720472] (-) TimerEvent: {}
+[15.821146] (-) TimerEvent: {}
+[15.921837] (-) TimerEvent: {}
+[16.022510] (-) TimerEvent: {}
+[16.123204] (-) TimerEvent: {}
+[16.223883] (-) TimerEvent: {}
+[16.324598] (-) TimerEvent: {}
+[16.425238] (-) TimerEvent: {}
+[16.525893] (-) TimerEvent: {}
+[16.626575] (-) TimerEvent: {}
+[16.727265] (-) TimerEvent: {}
+[16.827962] (-) TimerEvent: {}
+[16.928656] (-) TimerEvent: {}
+[17.029359] (-) TimerEvent: {}
+[17.130052] (-) TimerEvent: {}
+[17.230762] (-) TimerEvent: {}
+[17.331452] (-) TimerEvent: {}
+[17.432127] (-) TimerEvent: {}
+[17.532791] (-) TimerEvent: {}
+[17.633465] (-) TimerEvent: {}
+[17.734199] (-) TimerEvent: {}
+[17.835184] (-) TimerEvent: {}
+[17.935898] (-) TimerEvent: {}
+[18.036809] (-) TimerEvent: {}
+[18.137509] (-) TimerEvent: {}
+[18.238193] (-) TimerEvent: {}
+[18.338895] (-) TimerEvent: {}
+[18.439586] (-) TimerEvent: {}
+[18.540272] (-) TimerEvent: {}
+[18.582210] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_ackermann.so\x1b[0m\n'}
+[18.640449] (-) TimerEvent: {}
+[18.741146] (-) TimerEvent: {}
+[18.841854] (-) TimerEvent: {}
+[18.942630] (-) TimerEvent: {}
+[19.043320] (-) TimerEvent: {}
+[19.143975] (-) TimerEvent: {}
+[19.244670] (-) TimerEvent: {}
+[19.345383] (-) TimerEvent: {}
+[19.446064] (-) TimerEvent: {}
+[19.533480] (vesc_ackermann) StdoutLine: {'line': b'[100%] Built target vesc_ackermann\n'}
+[19.546179] (-) TimerEvent: {}
+[19.558674] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[19.625702] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'install'}
+[19.626896] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/f1tenth_ws/build/vesc_ackermann'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc_ackermann', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc_ackermann'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[19.646397] (-) TimerEvent: {}
+[19.652639] (vesc_ackermann) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.653416] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node\n'}
+[19.654031] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node\n'}
+[19.654494] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include\n'}
+[19.654760] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann\n'}
+[19.654987] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp\n'}
+[19.655218] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp\n'}
+[19.655414] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh\n'}
+[19.655563] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv\n'}
+[19.655781] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so\n'}
+[19.667309] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so" to ""\n'}
+[19.667824] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch\n'}
+[19.668050] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml\n'}
+[19.668262] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml\n'}
+[19.668494] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann\n'}
+[19.668721] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann\n'}
+[19.668945] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh\n'}
+[19.669157] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv\n'}
+[19.669340] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh\n'}
+[19.669492] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv\n'}
+[19.669621] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash\n'}
+[19.669746] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh\n'}
+[19.669918] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh\n'}
+[19.670085] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv\n'}
+[19.670258] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv\n'}
+[19.670504] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann\n'}
+[19.670706] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann\n'}
+[19.670883] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.671012] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.671145] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.671268] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake\n'}
+[19.671391] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake\n'}
+[19.671512] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml\n'}
+[19.675484] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[19.746728] (-) TimerEvent: {}
+[19.848166] (-) TimerEvent: {}
+[19.948810] (-) TimerEvent: {}
+[20.049509] (-) TimerEvent: {}
+[20.150461] (-) TimerEvent: {}
+[20.251637] (-) TimerEvent: {}
+[20.352553] (-) TimerEvent: {}
+[20.453504] (-) TimerEvent: {}
+[20.487447] (vesc_ackermann) JobEnded: {'identifier': 'vesc_ackermann', 'rc': 0}
+[20.553670] (-) TimerEvent: {}
+[20.654314] (-) TimerEvent: {}
+[20.755084] (-) TimerEvent: {}
+[20.855775] (-) TimerEvent: {}
+[20.956444] (-) TimerEvent: {}
+[21.057023] (-) TimerEvent: {}
+[21.157696] (-) TimerEvent: {}
+[21.258356] (-) TimerEvent: {}
+[21.358997] (-) TimerEvent: {}
+[21.459579] (-) TimerEvent: {}
+[21.560215] (-) TimerEvent: {}
+[21.660926] (-) TimerEvent: {}
+[21.761598] (-) TimerEvent: {}
+[21.862263] (-) TimerEvent: {}
+[21.962912] (-) TimerEvent: {}
+[22.063507] (-) TimerEvent: {}
+[22.164091] (-) TimerEvent: {}
+[22.264709] (-) TimerEvent: {}
+[22.365329] (-) TimerEvent: {}
+[22.465931] (-) TimerEvent: {}
+[22.566581] (-) TimerEvent: {}
+[22.667263] (-) TimerEvent: {}
+[22.767937] (-) TimerEvent: {}
+[22.868629] (-) TimerEvent: {}
+[22.960493] (vesc_driver) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_driver.so\x1b[0m\n'}
+[22.968741] (-) TimerEvent: {}
+[23.069336] (-) TimerEvent: {}
+[23.170014] (-) TimerEvent: {}
+[23.270750] (-) TimerEvent: {}
+[23.371479] (-) TimerEvent: {}
+[23.472195] (-) TimerEvent: {}
+[23.572920] (-) TimerEvent: {}
+[23.673637] (-) TimerEvent: {}
+[23.774301] (-) TimerEvent: {}
+[23.875012] (-) TimerEvent: {}
+[23.975701] (-) TimerEvent: {}
+[24.076357] (-) TimerEvent: {}
+[24.080783] (vesc_driver) StdoutLine: {'line': b'[ 70%] Built target vesc_driver\n'}
+[24.135360] (vesc_driver) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable vesc_device_namer\x1b[0m\n'}
+[24.176547] (-) TimerEvent: {}
+[24.277257] (-) TimerEvent: {}
+[24.378027] (-) TimerEvent: {}
+[24.478808] (-) TimerEvent: {}
+[24.579507] (-) TimerEvent: {}
+[24.670828] (vesc_driver) StdoutLine: {'line': b'[100%] Built target vesc_device_namer\n'}
+[24.679601] (-) TimerEvent: {}
+[24.697708] (vesc_driver) CommandEnded: {'returncode': 0}
+[24.778074] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'install'}
+[24.780300] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/f1tenth_ws/build/vesc_driver'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[24.787954] (-) TimerEvent: {}
+[24.804914] (vesc_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.805471] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node\n'}
+[24.805834] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include\n'}
+[24.806365] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver\n'}
+[24.806786] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp\n'}
+[24.807056] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp\n'}
+[24.807372] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp\n'}
+[24.807626] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp\n'}
+[24.807863] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp\n'}
+[24.808101] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp\n'}
+[24.808348] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp\n'}
+[24.808618] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh\n'}
+[24.808858] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv\n'}
+[24.809093] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so\n'}
+[24.819939] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/orin_nano/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so" to ""\n'}
+[24.820669] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer\n'}
+[24.821543] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/orin_nano/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""\n'}
+[24.821884] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch\n'}
+[24.822243] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py\n'}
+[24.822584] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/params\n'}
+[24.822903] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml\n'}
+[24.823242] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver\n'}
+[24.823629] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver\n'}
+[24.824003] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh\n'}
+[24.824335] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv\n'}
+[24.824577] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh\n'}
+[24.824867] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv\n'}
+[24.825222] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash\n'}
+[24.825610] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh\n'}
+[24.825858] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh\n'}
+[24.826094] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv\n'}
+[24.826386] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv\n'}
+[24.826643] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver\n'}
+[24.826880] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver\n'}
+[24.827112] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.827353] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.827580] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.827864] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake\n'}
+[24.828096] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake\n'}
+[24.828451] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml\n'}
+[24.830631] (vesc_driver) CommandEnded: {'returncode': 0}
+[24.888152] (-) TimerEvent: {}
+[24.989108] (-) TimerEvent: {}
+[25.090023] (-) TimerEvent: {}
+[25.191075] (-) TimerEvent: {}
+[25.291933] (-) TimerEvent: {}
+[25.393256] (-) TimerEvent: {}
+[25.494461] (-) TimerEvent: {}
+[25.595673] (-) TimerEvent: {}
+[25.622368] (vesc_driver) JobEnded: {'identifier': 'vesc_driver', 'rc': 0}
+[25.624490] (vesc) JobStarted: {'identifier': 'vesc'}
+[25.696637] (-) TimerEvent: {}
+[25.798441] (-) TimerEvent: {}
+[25.900141] (-) TimerEvent: {}
+[25.960022] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'cmake'}
+[25.961865] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'build'}
+[25.962511] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/f1tenth_ws/build/vesc', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[26.000335] (-) TimerEvent: {}
+[26.054686] (vesc) CommandEnded: {'returncode': 0}
+[26.100721] (-) TimerEvent: {}
+[26.104093] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'install'}
+[26.104722] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/f1tenth_ws/build/vesc'], 'cwd': '/home/orin_nano/f1tenth_ws/build/vesc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver/lib:/home/orin_nano/f1tenth_ws/install/vesc_ackermann/lib:/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib:/home/orin_nano/f1tenth_ws/install/urg_node2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2401'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '7:59574'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2607,unix/ubuntu:/tmp/.ICE-unix/2607'), ('INVOCATION_ID', '70d2c574fd8745c1bd7e34b9eba3cd90'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bfff8f3_259b_48ec_a096_9fe52d323b6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/f1_test:/home/orin_nano/f1tenth_ws/install/combine_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/f1tenth_ws/build/vesc'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0b41f11945f5e6b32f1af57f664190b6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/f1tenth_ws/install/vesc_driver:/home/orin_nano/f1tenth_ws/install/vesc_ackermann:/home/orin_nano/f1tenth_ws/install/vesc_msgs:/home/orin_nano/f1tenth_ws/install/vesc:/home/orin_nano/f1tenth_ws/install/urg_node2:/home/orin_nano/f1tenth_ws/install/combine_pkg:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy')]), 'shell': False}
+[26.128693] (vesc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.129488] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc\n'}
+[26.130041] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc\n'}
+[26.130507] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh\n'}
+[26.130799] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv\n'}
+[26.131258] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/path.sh\n'}
+[26.131573] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/environment/path.dsv\n'}
+[26.131827] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.bash\n'}
+[26.132070] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.sh\n'}
+[26.132345] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.zsh\n'}
+[26.132582] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/local_setup.dsv\n'}
+[26.132813] (vesc) StdoutLine: {'line': b'-- Installing: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/package.dsv\n'}
+[26.133042] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/ament_index/resource_index/packages/vesc\n'}
+[26.133271] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig.cmake\n'}
+[26.133496] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake\n'}
+[26.133826] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/f1tenth_ws/install/vesc/share/vesc/package.xml\n'}
+[26.136055] (vesc) CommandEnded: {'returncode': 0}
+[26.200764] (-) TimerEvent: {}
+[26.301659] (-) TimerEvent: {}
+[26.402198] (-) TimerEvent: {}
+[26.503314] (-) TimerEvent: {}
+[26.603872] (-) TimerEvent: {}
+[26.704329] (-) TimerEvent: {}
+[26.732021] (vesc) JobEnded: {'identifier': 'vesc', 'rc': 0}
+[26.734366] (-) EventReactorShutdown: {}

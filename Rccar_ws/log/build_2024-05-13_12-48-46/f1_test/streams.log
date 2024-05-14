@@ -1,0 +1,21 @@
+[2.484s] Invoking command in '/home/orin_nano/f1tenth_ws/src/f1_test': PYTHONPATH=/home/orin_nano/f1tenth_ws/build/f1_test/prefix_override:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1_test build --build-base /home/orin_nano/f1tenth_ws/build/f1_test/build install --record /home/orin_nano/f1tenth_ws/build/f1_test/install.log --install-scripts $base/lib/f1_test --single-version-externally-managed
+[2.918s] running egg_info
+[2.919s] writing ../../build/f1_test/f1_test.egg-info/PKG-INFO
+[2.920s] writing dependency_links to ../../build/f1_test/f1_test.egg-info/dependency_links.txt
+[2.921s] writing entry points to ../../build/f1_test/f1_test.egg-info/entry_points.txt
+[2.922s] writing requirements to ../../build/f1_test/f1_test.egg-info/requires.txt
+[2.924s] writing top-level names to ../../build/f1_test/f1_test.egg-info/top_level.txt
+[2.988s] reading manifest file '../../build/f1_test/f1_test.egg-info/SOURCES.txt'
+[2.991s] writing manifest file '../../build/f1_test/f1_test.egg-info/SOURCES.txt'
+[2.992s] running build
+[2.993s] running build_py
+[2.994s] running install
+[2.996s] running install_lib
+[2.997s] running install_data
+[2.998s] running install_egg_info
+[3.001s] removing '/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages/f1_test-0.0.0-py3.8.egg-info' (and everything under it)
+[3.002s] Copying ../../build/f1_test/f1_test.egg-info to /home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages/f1_test-0.0.0-py3.8.egg-info
+[3.003s] running install_scripts
+[3.038s] Installing f1_test_lidar script to /home/orin_nano/f1tenth_ws/install/f1_test/lib/f1_test
+[3.040s] writing list of installed files to '/home/orin_nano/f1tenth_ws/build/f1_test/install.log'
+[3.758s] Invoked command in '/home/orin_nano/f1tenth_ws/src/f1_test' returned '0': PYTHONPATH=/home/orin_nano/f1tenth_ws/build/f1_test/prefix_override:/home/orin_nano/f1tenth_ws/install/f1_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1_test build --build-base /home/orin_nano/f1tenth_ws/build/f1_test/build install --record /home/orin_nano/f1tenth_ws/build/f1_test/install.log --install-scripts $base/lib/f1_test --single-version-externally-managed

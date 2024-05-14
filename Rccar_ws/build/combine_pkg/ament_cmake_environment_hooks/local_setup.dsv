@@ -1,0 +1,2 @@
+source;share/combine_pkg/environment/ament_prefix_path.sh
+source;share/combine_pkg/environment/path.sh

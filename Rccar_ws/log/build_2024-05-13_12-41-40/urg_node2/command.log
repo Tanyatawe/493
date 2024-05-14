@@ -1,0 +1,4 @@
+Invoking command in '/home/orin_nano/f1tenth_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/urg_node2 -- -j6 -l6
+Invoked command in '/home/orin_nano/f1tenth_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/f1tenth_ws/build/urg_node2 -- -j6 -l6
+Invoking command in '/home/orin_nano/f1tenth_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/urg_node2
+Invoked command in '/home/orin_nano/f1tenth_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/f1tenth_ws/install/f1_test:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/f1tenth_ws/build/urg_node2
